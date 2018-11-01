@@ -4,6 +4,7 @@
         <title>St. Louis Cardinals Trivia Game</title>
         <meta charset="UTF-8"/>
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
 
     </head>
 
@@ -14,62 +15,76 @@
 
         </header>
 
+        <div id="start-page">
+            <h1>St. Louis Cardinals Trivia!</h1>
+            <button id="start"> START!</button>
+
+
+        </div>
+
         <div id="main-content">
             <div id="timer-content">
-                <p id="time-remaining">Time Remaining: 60 seconds</p>
+                <h2 id="time-remaining">Time Remaining: 60 Seconds</h2>
 
             </div>
             <div id="questions">
                 <p id="question-one">Enos Slaughter's game winning "Mad Dash" from first to home to score the winning run in the 1946 World Series for the Cardinals ranks as an exciting, memorable moment. What team did the Cardinals beat in that World Series?</p>
                 <form action="/action_page.php">
-                    <input type="radio" name="question-one" value="Red-Sox"> Red-Sox
-                    <input type="radio" name="question-one" value="Cubs"> Cubs
-                    <input type="radio" name="question-one" value="Dodgers"> Dodgers 
+                    <input type="radio" name="question-one" value="right" class="radiobutton"> Red-Sox
+                    <input type="radio" name="question-one" value="wrong" class="radiobutton"> Cubs
+                    <input type="radio" name="question-one" value="wrong" class="radiobutton"> Dodgers 
                 </form>
                 <p id="question-two"> Ozzie Smith, known as "The Wizard", played with the St. Louis Cardinals from 1982 through 1996. How many consecutive Gold Glove awards did he earn?</p>
                 <form action="/action_page.php">
-                    <input type="radio" name="question-two" value="6"> 6
-                    <input type="radio" name="question-two" value="11"> 11
-                    <input type="radio" name="question-two" value="13"> 13  
+                    <input type="radio" name="question-two" value="wrong" class="radiobutton"> 6
+                    <input type="radio" name="question-two" value="wrong" class="radiobutton"> 11
+                    <input type="radio" name="question-two" value="right" class="radiobutton"> 13  
                 </form>
                 <p id="question-three">In which year did the Cardinals win their very first World Series title?</p>
                 <form action="/action_page.php">
-                    <input type="radio" name="question-three" value="1931"> 1931
-                    <input type="radio" name="question-three" value="1926"> 1926
-                    <input type="radio" name="question-three" value="1934"> 1934  
+                    <input type="radio" name="question-three" value="wrong" class="radiobutton"> 1931
+                    <input type="radio" name="question-three" value="right" class="radiobutton"> 1926
+                    <input type="radio" name="question-three" value="wrong" class="radiobutton"> 1934  
                 </form>
                 <p id="question-four">Which of the following Cardinals hit four home runs in one game?</p>
                 <form action="/action_page.php">
-                    <input type="radio" name="question-four" value="Mark McGwire"> Mark McGwire
-                    <input type="radio" name="question-four" value="Mark Whitten"> Mark Whitten
-                    <input type="radio" name="question-four" value="Ray Lankford"> Ray Lankford  
+                    <input type="radio" name="question-four" value="wrong" class="radiobutton"> Mark McGwire
+                    <input type="radio" name="question-four" value="right" class="radiobutton"> Mark Whitten
+                    <input type="radio" name="question-four" value="wrong" class="radiobutton"> Ray Lankford  
                 </form>
                 <p id="question-five">Which Cardinal first baseman was known as "Big Mac"?</p>
                 <form action="/action_page.php">
-                    <input type="radio" name="question-five" value="Red-Sox"> Mark McGwire
-                    <input type="radio" name="question-five" value="Cubs"> Mark Whitten
-                    <input type="radio" name="question-five" value="Dodgers"> Miguel Bautista
+                    <input type="radio" name="question-five" value="right" class="radiobutton"> Mark McGwire
+                    <input type="radio" name="question-five" value="wrong" class="radiobutton"> Mark Whitten
+                    <input type="radio" name="question-five" value="wrong" class="radiobutton"> Miguel Bautista
                 </form>
                 <p id="question-six">Against what team did Mark McGwire hit his first homer in his record-breaking season of 1998?</p>
                 <form action="/action_page.php">
-                    <input type="radio" name="question-six" value="Braves"> Braves
-                    <input type="radio" name="question-six" value="Cubs"> Cubs
-                    <input type="radio" name="question-six" value="Dodgers"> Dodgers  
+                    <input type="radio" name="question-six" value="wrong" class="radiobutton"> Braves
+                    <input type="radio" name="question-six" value="wrong" class="radiobutton"> Cubs
+                    <input type="radio" name="question-six" value="right" class="radiobutton"> Dodgers  
                 </form>
                 <p id="question-seven">Who was the first Cardinal pitcher to strikeout over 3000 batters in a St. Louis uniform?</p>
                 <form action="/action_page.php">
-                    <input type="radio" name="question-seven" value="Chris Carpenter"> Chris Carpenter
-                    <input type="radio" name="question-seven" value="Bob Gibson"> Bob Gibson
-                    <input type="radio" name="question-seven" value="Dizzy Dean"> Dizzy Dean   
+                    <input type="radio" name="question-seven" value="wrong" class="radiobutton"> Chris Carpenter
+                    <input type="radio" name="question-seven" value="right" class="radiobutton"> Bob Gibson
+                    <input type="radio" name="question-seven" value="wrong" class="radiobutton"> Dizzy Dean   
                 </form>
                 <p id="question-eight">Stan Musial spent his entire career of 22 seasons with the Cardinals, playing outfield and what other position?</p>
                 <form action="/action_page.php">
-                    <input type="radio" name="question-eight" value="Shortstop"> Shortstop
-                    <input type="radio" name="question-eight" value="Pitcher"> Pitcher
-                    <input type="radio" name="question-eight" value="First Base"> First Base
+                    <input type="radio" name="question-eight" value="wrong" class="radiobutton"> Shortstop
+                    <input type="radio" name="question-eight" value="wrong" class="radiobutton"> Pitcher
+                    <input type="radio" name="question-eight" value="right" class="radiobutton"> First Base
                 </form>
-            </div>
+            </div>           
 
+        </div>
+        <div id="results">
+            <h1 id="results-header">Final Results!</h1>
+            <h3 id="correct">Questions Correct: </h3>
+            <h3 id="incorrect">Questions Incorrect: </h3>
+            <h3 id="not-answered">Questions Not Answered: </h3>
+            <button id="restart">Restart!</button>
         </div>
 
         <footer>
@@ -81,6 +96,6 @@
 
 
 
-        <script src="assets/javascript/game.js"></script>
+        <script src="assets/javascript/app.js"></script>
     </body>
 </html>
