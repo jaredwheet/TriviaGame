@@ -17,7 +17,7 @@ baseballTonight.preLoad=true;
 
 var playBall = document.createElement("audio");
 playBall.src="http://soundbible.com/mp3/Play Ball Umpire-SoundBible.com-675977381.mp3";
-playBall.volume=0.50;
+playBall.volume=1;
 playBall.autoPlay=false;
 playBall.preLoad=true;
 
